@@ -1,6 +1,6 @@
 # MDTO-RDF
 
-De [shacl voor de validatie van MTDO-bestanden in RDF-formaat](https://www.nationaalarchief.nl/archiveren/mdto/rdf-ontologie) zoals die gepublcieerd wordt door het Nationaal Archief, voldoet aan de shacl-standaard. Sommige validatie-tools zijn desondanks te gebruiken, maar mogelijk met onvolledige validatie (bijvoorbeeld [shacl-validator](https://github.com/ontola/shacl-validator) of [EU ITB Shacl Validator](https://www.itb.ec.europa.eu/shacl/any/upload)). De shacl van het Nationaal Archief werkt niet met de python module [pyshacl](https://github.com/RDFLib/pySHACL).
+De [shacl voor de validatie van MTDO-bestanden in RDF-formaat](https://www.nationaalarchief.nl/archiveren/mdto/rdf-ontologie) zoals die gepubliceerd wordt door het Nationaal Archief, voldoet niet aan de shacl-standaard. Sommige validatie-tools zijn desondanks te gebruiken, maar mogelijk met onvolledige validatie (bijvoorbeeld [shacl-validator](https://github.com/ontola/shacl-validator) of [EU ITB Shacl Validator](https://www.itb.ec.europa.eu/shacl/any/upload)). De shacl van het Nationaal Archief werkt niet met de python module [pyshacl](https://github.com/RDFLib/pySHACL).
 
 De *shacl* in deze repositoryis gebaseerd op het bestand van het Nationaal Archief, maar corrigeert de fout die maakt dat **pyshacl** het niet accepteert.
 
